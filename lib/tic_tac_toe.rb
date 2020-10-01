@@ -105,6 +105,7 @@ class TicTacToe
       puts "Congratulations #{self.winner}"
     else # else if the game was a draw
       #   tell the players it ended in a draw
+      puts "It's a draw!"
     end
   end
 
