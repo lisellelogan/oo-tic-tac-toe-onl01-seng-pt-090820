@@ -96,7 +96,16 @@ class TicTacToe
   end
 
   def play
-    
+    until the game is over
+  take turns
+end
+
+ def play
+# if the game was won
+#   congratulate the winner
+# else if the game was a draw
+#   tell the players it ended in a draw
+# end
   end
 
 end
