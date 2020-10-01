@@ -96,10 +96,7 @@ class TicTacToe
   end
 
   def play
-    until self.over?
-      self.turn
-    end
-# if the game was won
+    self.turn until self.over?
     if self.won?
       #   congratulate the winner
       puts "Congratulations #{self.winner}"
