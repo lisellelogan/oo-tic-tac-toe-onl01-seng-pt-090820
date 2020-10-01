@@ -101,7 +101,15 @@ class TicTacToe
 end
 
   def play
-    
+    until self.over?
+      self.turn
+    end
+# if the game was won
+    if self.won?
+#   congratulate the winner
+# else if the game was a draw
+#   tell the players it ended in a draw
+# end
   end
 
 end
