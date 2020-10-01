@@ -102,6 +102,7 @@ class TicTacToe
     else
       puts "Cat's Game!"
     end
+    binding.pry
   end
 
 end
