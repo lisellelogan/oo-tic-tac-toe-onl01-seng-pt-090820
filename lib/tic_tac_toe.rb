@@ -102,6 +102,7 @@ class TicTacToe
 # if the game was won
     if self.won?
       #   congratulate the winner
+      puts "Congratulations #{self.winner}"
     else # else if the game was a draw
       #   tell the players it ended in a draw
     end
